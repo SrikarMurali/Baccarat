@@ -1,6 +1,7 @@
 # Baccarat
 
 
+
 ## Baccarat Overview
 
 Baccarat is a popular card game played in casinos across the country. Baccarat's popularity has brought with it several variations such as punto bacno, baccarat chemin de fer, and baccarat banque.
@@ -29,7 +30,7 @@ The various choices are:
 
 This amounts were calculated based on the probability of each hand winning which converges to the given probabilties:
 
-These probabilties were taken from https://wizardofodds.com/games/baccarat/basics/.
+These probabilties were taken from this [website](https://wizardofodds.com/games/baccarat/basics/).
 
   Player wins: 0.446247
   
@@ -43,5 +44,10 @@ This project is divided into several files.
 
 [Baccart.py](https://github.com/SrikarMurali/Baccarat/blob/master/Baccarat.py) - contains functions for starting and running a game of baccarat.
 
-BaccaratProcess.py 
+[BaccaratProcess.py](https://github.com/SrikarMurali/Baccarat/blob/master/BaccaratProcess.py) - class to deal with the baccarat processes. This class deals the cards, calculates the return amounts, updates states and values, etc.
+
+[BaccaratLearning.py](https://github.com/SrikarMurali/Baccarat/blob/master/BaccaratLearning.py) - this is the class where the reinforcement learning occurs. Here the agent explores the states, bets, and determines the best methodology to win each round.
+
+[TestBaccarat.ipynb](https://github.com/SrikarMurali/Baccarat/blob/master/TestBaccarat.ipynb) - this python notebook contains a test simulation of the agent and plots the proportion of wins the agent had. This notebook also contains an interpretation of the results as well as an analysis of why certain things did or did not work. Potential future improvements are also discussed in this notebook.
+
 
