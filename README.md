@@ -11,5 +11,25 @@ I.E
 
 If the player has cards with the value 2 and 3, then the total value if 5. However if the player has cards with the value 6 and 8, then the total value is 4 since the units digit of the total, 14, is 4.
 
-Each round the player must choose between three choices: player wins, banker wins, or tie. 
+Each round the player must choose between three choices: player wins, banker wins, or tie and depending on the outcome the player is either rewarded a certain monetary amount or loses the betted amount.
+
+
+For the sake of this game the amount returned will be mapped as follows:
+
+
+x - x: Agent correctly bet on x (highest hand) and won the round.
+
+The various choices are:
+  agent - agent: 100% of amount returned
+  agent - dealer: 75% of amount returned
+  agent - tie: 800% of amount returned
+
+This amounts were calculated based on the probability of each hand winning which converges to the given probabilties:
+
+These probabilties were taken from https://wizardofodds.com/games/baccarat/basics/.
+
+  Player wins: 0.446247
+  Banker wins: 0.458597
+  Neither/tie: 0.095156
+
 
