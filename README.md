@@ -1,7 +1,6 @@
 # Baccarat
 
-![Image of Baccarat Board]
-(https://cdn.chatsports.com/cache/3c/2f/3c2fc8415779bd3a34c625b955ac8df8-original.jpg)
+![Image of Baccarat Board](https://cdn.chatsports.com/cache/3c/2f/3c2fc8415779bd3a34c625b955ac8df8-original.jpg)
 
 ## Baccarat Overview
 
@@ -15,9 +14,7 @@ If the player has cards with the value 2 and 3, then the total value if 5. Howev
 
 Each round the player must choose between three choices: player wins, banker wins, or tie and depending on the outcome the player is either rewarded a certain monetary amount or loses the betted amount.
 
-
 For the sake of this game the amount returned will be mapped as follows:
-
 
 x - x: Agent correctly bet on x (highest hand) and won the round.
 
@@ -65,7 +62,7 @@ Example State: One example state is that the agent is deciding between the three
 
 Example Reward: An example of a reward would occur if the agent chose the action that coincides with the highest value. In this case they would be rewarded the total monetary units that were at play at the time. If the agent chose incorrectly then they would lose the amount of units that the agent bet.
 
-##Prior Work
+## Prior Work
 
 There have been several pieces of work related to reinforcement learning and Baccarat.
 
