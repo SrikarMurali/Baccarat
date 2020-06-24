@@ -37,4 +37,11 @@ These probabilties were taken from https://wizardofodds.com/games/baccarat/basic
   
   Neither/tie: 0.095156
 
+## File Layout
+
+This project is divided into several files.
+
+[Baccart.py](https://github.com/SrikarMurali/Baccarat/blob/master/Baccarat.py) - contains functions for starting and running a game of baccarat.
+
+BaccaratProcess.py 
 
