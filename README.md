@@ -66,10 +66,10 @@ Example Reward: An example of a reward would occur if the agent chose the action
 
 There have been several pieces of work related to reinforcement learning and Baccarat.
 
-Modeling, Simulation, and Analysis of Baccarat: A Critical View of Card Counting, Odds, and Bets by D.Madewell.
+[Modeling, Simulation, and Analysis of Baccarat: A Critical View of Card Counting, Odds, and Bets by D.Madewell](https://www.academia.edu/9891305/Modeling_Simulation_and_Analysis_of_Baccarat_A_Critical_View_of_Card_Counting_Odds_and_Bets)
 
 This paper discusses how the game of Baccarat can be turned into a reinforcement learning problem and how an optimal strategy can be found.
 
-The House Always Wins: Simulating 5,000,000 Games of Baccarat a.k.a Punto Banco by Paul Vanderlanken
+[The House Always Wins: Simulating 5,000,000 Games of Baccarat a.k.a Punto Banco by Paul Vanderlanken](https://paulvanderlaken.com/2018/01/10/baccarat-simulation-payoff/)
 
 This article discusses a simulation on how to find the optimal baccarat strategy. This article showcases how baccarat could be simulated to find the optimal strategy.
