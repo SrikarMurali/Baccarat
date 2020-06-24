@@ -20,8 +20,11 @@ For the sake of this game the amount returned will be mapped as follows:
 x - x: Agent correctly bet on x (highest hand) and won the round.
 
 The various choices are:
+
   agent - agent: 100% of amount returned
+  
   agent - dealer: 75% of amount returned
+  
   agent - tie: 800% of amount returned
 
 This amounts were calculated based on the probability of each hand winning which converges to the given probabilties:
@@ -29,7 +32,9 @@ This amounts were calculated based on the probability of each hand winning which
 These probabilties were taken from https://wizardofodds.com/games/baccarat/basics/.
 
   Player wins: 0.446247
+  
   Banker wins: 0.458597
+  
   Neither/tie: 0.095156
 
 
