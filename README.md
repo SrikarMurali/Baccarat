@@ -2,7 +2,7 @@
 
 ![Image of Baccarat Board](https://github.com/SrikarMurali/Baccarat/blob/master/Images/baccarat.jpg)
 
-[![Baccarat Learning Video](https://img.youtube.com/vi/VIDEO-ID/0.jpg)](https://youtu.be/frpBkYLnSC8)
+[![Baccarat Learning Video](https://img.youtube.com/vi/frpBkYLnSC8/0.jpg)](https://youtu.be/frpBkYLnSC8)
 
 ## Baccarat Overview
 
