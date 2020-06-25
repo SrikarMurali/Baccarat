@@ -2,6 +2,8 @@
 
 ![Image of Baccarat Board](https://github.com/SrikarMurali/Baccarat/blob/master/Images/baccarat.jpg)
 
+![Baccarat Video](https://youtu.be/frpBkYLnSC8)
+
 ## Baccarat Overview
 
 Baccarat is a popular card game played in casinos across the country. Baccarat's popularity has brought with it several variations such as punto banco, baccarat chemin de fer, and baccarat banque.
