@@ -64,7 +64,7 @@ Example Reward: An example of a reward would occur if the agent chose the action
 
 ## Results
 
-Based on the results from the simulation it appears that the agent was indeed able to learn the optimal strategy of choosing the banker. The overall proportion of wins in close to the proportion that the dealer wins. The difference is most likely due to the actions taken before the agent determines that the optimal strategy is to pick the banker each time, hence the roughly normal distribution.
+Based on the results from the simulation it appears that the agent was indeed able to learn the optimal strategy of choosing the banker. The overall proportion of wins in close to the proportion that the dealer wins. The difference is most likely due to the actions taken before the agent determines that the optimal strategy is to pick the banker each time.
 
 ![Graph of Results](https://github.com/SrikarMurali/Baccarat/blob/master/Images/results.png)
 
