@@ -1,6 +1,6 @@
 # Baccarat
 
-![Image of Baccarat Board](https://cdn.chatsports.com/cache/3c/2f/3c2fc8415779bd3a34c625b955ac8df8-original.jpg)
+![Image of Baccarat Board](https://github.com/SrikarMurali/Baccarat/blob/master/Images/baccarat.jpg)
 
 ## Baccarat Overview
 
@@ -66,7 +66,7 @@ Example Reward: An example of a reward would occur if the agent chose the action
 
 Based on the results from the simulation it appears that the agent was indeed able to learn the optimal strategy of choosing the banker. The overall proportion of wins in close to the proportion that the dealer wins. The difference is most likely due to the actions taken before the agent determines that the optimal strategy is to pick the banker each time, hence the roughly normal distribution.
 
-![Graph of Results](https://github.com/SrikarMurali/Baccarat/blob/master/results.png)
+![Graph of Results](https://github.com/SrikarMurali/Baccarat/blob/master/Images/results.png)
 
 ## Prior Work
 
