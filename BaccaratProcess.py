@@ -1,13 +1,13 @@
 from BaccaratLearning import *
 
+
 class BaccaratProcess():
     def __init__(self):
         """Initialize a blank state."""
-        self.total_agents = [] # total agents
-        self.in_play = [] # number of agents in play
-        self.starting_amount = 100 # basic starting amount
-        self.in_play.append(BaccaratLearning()) # add single agent to inplay
-
+        self.total_agents = []  # total agents
+        self.in_play = []  # number of agents in play
+        self.starting_amount = 100  # basic starting amount
+        self.in_play.append(BaccaratLearning())  # add single agent to inplay
 
     def return_value_table_pair(self):
         """Return a value pair from the player."""
@@ -22,7 +22,7 @@ class BaccaratProcess():
             Deal cards for a round of Baccarat.
             Deals are simulated based on true odds of each hand winning.
             Odds were retreived from: https://wizardofodds.com/games/baccarat/basics/
-            
+
             Player wins: 0.446247
             Dealer wins: 0.458597
             neither/tie: 0.095156
@@ -30,9 +30,11 @@ class BaccaratProcess():
         # use builtin random function to get probability
         deal_prob = random.uniform(0, 1)
         # player wins the round
-        if deal_prob < .4462: return 0
+        if deal_prob < .4462:
+            return 0
         # dealer wins the round
-        elif deal_prob < .9047: return 1
+        elif deal_prob < .9047:
+            return 1
         # else game is a tie
         return 2
 
@@ -40,9 +42,9 @@ class BaccaratProcess():
         """
             Calculates how much needs to be returned to the player.
             Changes depending on if there was a win, loss or tie.
-            
+
             x - x: Agent correctly bet on x (highest hand) and won the round.
-            
+
             The various choices are:
                 agent-agent: 100% of amount returend
                 agent-dealer: 75% of amount returned
@@ -57,17 +59,21 @@ class BaccaratProcess():
         # tie game
         if true_outcome == 2:
             # guess correct, return 800% of amount bet (return 9x)
-            if true_outcome == agent_guess: return 9*float(amount_bet)
+            if true_outcome == agent_guess:
+                return 9*float(amount_bet)
             # since it is a tie, nothing is lost for guessing incorrectly
-            else: return amount_bet
+            else:
+                return amount_bet
         # agent or dealer wins
         else:
             # agent guesses the correct hand
             if true_outcome == agent_guess:
                 # agent hand wins, return 100% of amount bet (return 2x)
-                if true_outcome == 0: return 2*float(amount_bet)
+                if true_outcome == 0:
+                    return 2*float(amount_bet)
                 # dealer hand wins, return 75% of amount bet (return 1.95x)
-                elif true_outcome == 1: return 1.75*float(amount_bet)
+                elif true_outcome == 1:
+                    return 1.75*float(amount_bet)
         # if not tie and an incorrect guess
         # agent loses amount bet
         return 0
@@ -98,6 +104,3 @@ class BaccaratProcess():
             if agent.total_amount == 0:
                 self.total_agents.append(agent)
                 self.in_play.remove(agent)
-
-
-
