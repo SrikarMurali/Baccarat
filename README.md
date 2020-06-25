@@ -62,6 +62,12 @@ Example State: One example state is that the agent is deciding between the three
 
 Example Reward: An example of a reward would occur if the agent chose the action that coincides with the highest value. In this case they would be rewarded  monetary units. If the agent chose incorrectly then they would lose the amount of units that the agent bet.
 
+## Results
+
+Based on the results from the simulation it appears that the agent was indeed able to learn the optimal strategy of choosing the banker. The overall proportion of wins in close to the proportion that the dealer wins. The difference is most likely due to the actions taken before the agent determines that the optimal strategy is to pick the banker each time, hence the roughly normal distribution.
+
+![Graph of Results](https://github.com/SrikarMurali/Baccarat/blob/master/results.png)
+
 ## Prior Work
 
 There have been several pieces of work related to reinforcement learning and Baccarat.
@@ -74,9 +80,5 @@ This paper discusses how the game of Baccarat can be turned into a reinforcement
 
 This article discusses a simulation on how to find the optimal baccarat strategy. This article showcases how baccarat could be simulated to find the optimal strategy.
 
-## Results
 
-Based on the results from the simulation it appears that the agent was indeed able to learn the optimal strategy of choosing the banker. The overall proportion of wins in close to the proportion that the dealer wins. The difference is most likely due to the actions taken before the agent determines that the optimal strategy is to pick the banker each time, hence the roughly normal distribution.
-
-![Graph of Results](https://github.com/SrikarMurali/Baccarat/blob/master/results.png)
 
