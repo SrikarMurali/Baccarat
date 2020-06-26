@@ -54,6 +54,8 @@ This project is divided into several files.
 
 Baccarat can easily be framed as a reinforcement learning problem.
 
+Research Question: Can an agent be trained to play Baccarat without having any prior experience?
+
 Sequential: This simulation can be run indefinitely, however it will most likely take several thousand iterations for the agent to learn the optimal strategy.
 
 Environment: The environment is the Baccarat game. A simulation of the game will be created in which there will be a player and a banker. Each coup, cards are dealt and the player has to choose which hand has a higher point value or if a tie exists. The deals will be simulated based on the actual probabilities for each choice.
